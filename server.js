@@ -15,6 +15,7 @@ server.get("/", function (request, response) {
 })
 
 server.use("/note", note_router)
+server.use(express.static("static"))
 
 server.listen(port, function() {
     console.log("[Server], Server just started!", port)
