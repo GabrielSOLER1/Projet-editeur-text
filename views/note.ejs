@@ -5,40 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Note</title>
     <link rel="stylesheet" href="main.css">
-    <script src="../static/script/script.js"></script>
 </head>
 <body>
     <div class="container">
         <h1>Editeur de texte</h1>
     </div>
 
+ <div class="haha">
+        <button id="toggleMode" type="button">🌙</button>
+    </div>
 
     <div class="container2">
         <div class="im">
             <img src="160-1071875541.webp" alt="paper">
         </div>
         <div class="impexp">
-            <button type="submit" id="imp">Import</button>
+            <input type="file" id="importTxt" accept=".txt">
             <button type="submit" id="exp">Export</button>
         </div>
 
 
-        <div class="edit">
-            <button class="btn-edit" id="bold">Gras</button>
-<button class="btn-edit" id="underline">Souligné</button>
-<button class="btn-edit" id="italic">Italique</button>
+ <div class="edit">
+    <button class="btn-edit" id="bold">Gras</button>
+    <button class="btn-edit" id="underline">Souligné</button>
+    <button class="btn-edit" id="italic">Italique</button>
 
 
-<select id="fontSize">
-<option value="12px">12</option>
-<option value="14px">14</option>
-<option value="18px">18</option>
-<option value="24px">24</option>
-<option value="36px">36</option>
-<option value="48px">48</option>
-<option value="72px">72</option>
-</select>
-        </div>
+    <select id="fontSize">
+    <option value="12px">12</option>
+    <option value="14px">14</option>
+    <option value="18px">18</option>
+    <option value="24px">24</option>
+    <option value="36px">36</option>
+    <option value="48px">48</option>
+    <option value="72px">72</option>
+    </select>
+         </div>
 
 
         <div class="skibidi">
@@ -48,6 +50,7 @@
             <a href="/">Revenir à la page principale</a>
         </div>
 
-
+<script src="/script/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </body>
 </html>
