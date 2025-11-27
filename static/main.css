@@ -1,17 +1,42 @@
+  :root {
+    --bg-color: hsl(0, 0%, 96%);
+    --text-color: black;
+    --btn-color: hsl(0, 0%, 96%);
+    --bx-s : 3px 3px 30px lightgrey;
+    --brd-c : 1px solid whitesmoke;
+  }
+
 *, *::before, *::after{
     box-sizing: border-box;
 }
 
+.night {
+    --bg-color: black;
+    /* --text-color: #f5f5f5; */
+    --btn-color: #000000de;
+    --bx-s : none;
+    --brd-c : 1px solid #000000de;
+}
+
+body {
+    background-color: var(--bg-color);
+    /* color: var(--text-color); */
+    transition: background-color 0.3s, color 0.3s;
+}
 
 .container{
     display: flex;
     padding-bottom: 25px;
 }
 
+<<<<<<< Updated upstream
 body{
     background-color: hsl(0, 0%, 96%);
     
 }
+=======
+
+>>>>>>> Stashed changes
 
 h1{
     margin: auto;
@@ -36,7 +61,7 @@ h2{
     margin: auto;
     background-color: lightblue;
     justify-content: space-around;
-    box-shadow: 3px 3px 30px lightgrey
+    box-shadow: var(--bx-s);
 }
 
 .btn{
@@ -61,9 +86,29 @@ h2{
     transition: transform 0.5s ease;
 }
 
+<<<<<<< Updated upstream
+=======
+#toggleMode{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-radius: 6rem;
+    
+}
+
+.haha{
+    display: flex;
+    width: 50px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+>>>>>>> Stashed changes
 button{
-    background-color: hsl(0, 0%, 96%);
-    border: 1px solid whitesmoke;
+    background-color: var(--btn-color);
+    border: var(--brd-c);
     border-radius: .5rem;
     padding-top: 30px;
     padding-bottom: 30px;
