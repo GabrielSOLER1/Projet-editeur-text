@@ -65,6 +65,9 @@ let textareaExp = document.getElementById("text123");
 
 function downloadTextFile() {
     const text = textareaExp.value ; 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     const blob = new Blob([text], { type: 'text/plain' });
     const link = document.createElement('a');
@@ -72,8 +75,11 @@ function downloadTextFile() {
     link.download = 'exportedFile.txt';
     link.click();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 }
 =======
+=======
+>>>>>>> Stashed changes
 }
 
 document.getElementById("exp").addEventListener("click",() => downloadTextFile() );
@@ -95,4 +101,7 @@ const toggleBtn = document.getElementById("toggleMode");
     console.log("✅ Night Mode button clicked!");
     document.body.classList.toggle("night");
   });
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
