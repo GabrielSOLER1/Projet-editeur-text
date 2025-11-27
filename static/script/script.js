@@ -2,10 +2,6 @@ const importFile = document.getElementById("imp")
 
 const exportFile = document.getElementById("exp")
 
-<<<<<<< Updated upstream
-function downloadTextFile() {
-    const text = ""; // Replace with your text
-=======
 // const exportFile = document.getElementById("exp")
 
 
@@ -65,15 +61,11 @@ let textareaExp = document.getElementById("text123");
 
 function downloadTextFile() {
     const text = textareaExp.value ; 
->>>>>>> Stashed changes
     const blob = new Blob([text], { type: 'text/plain' });
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
     link.download = 'exportedFile.txt';
     link.click();
-<<<<<<< Updated upstream
-}
-=======
 }
 
 document.getElementById("exp").addEventListener("click",() => downloadTextFile() );
@@ -95,4 +87,3 @@ const toggleBtn = document.getElementById("toggleMode");
     console.log("✅ Night Mode button clicked!");
     document.body.classList.toggle("night");
   });
->>>>>>> Stashed changes
