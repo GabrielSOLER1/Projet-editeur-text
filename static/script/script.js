@@ -66,6 +66,9 @@ let textareaExp = document.getElementById("text123");
 function downloadTextFile() {
     const text = textareaExp.value ; 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -76,8 +79,11 @@ function downloadTextFile() {
     link.click();
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 }
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 }
@@ -102,6 +108,9 @@ const toggleBtn = document.getElementById("toggleMode");
     document.body.classList.toggle("night");
   });
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

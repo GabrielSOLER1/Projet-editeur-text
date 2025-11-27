@@ -18,7 +18,16 @@
     --brd-c : 1px solid #000000de;
 }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+
+body {
+    background-color: var(--bg-color);
+    /* color: var(--text-color); */
+    transition: background-color 0.3s, color 0.3s;
+}
+>>>>>>> Stashed changes
 
 body {
     background-color: var(--bg-color);
@@ -40,10 +49,14 @@ body {
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 body{
     background-color: hsl(0, 0%, 96%);
     
 }
+=======
+
+>>>>>>> Stashed changes
 =======
 
 >>>>>>> Stashed changes
@@ -101,7 +114,10 @@ h2{
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 #toggleMode{
@@ -113,7 +129,18 @@ h2{
     
 }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+
+.haha{
+    display: flex;
+    width: 50px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+>>>>>>> Stashed changes
 
 .haha{
     display: flex;
